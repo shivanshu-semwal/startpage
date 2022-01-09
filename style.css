@@ -1,5 +1,5 @@
 body {
-    font-family: "Iosevka Term";
+    font-family: "Iosevka Term", monospace;
     font-size: 18px;
     background: #282a36;
     color: #f8f8f2;
@@ -11,7 +11,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Iosevka Term";
+    font-family: "Iosevka Term", monospace;
     color: #f8f8f2;
     font-weight: 700;
     padding: 6px;
@@ -33,7 +33,7 @@ input:focus {
 ::placeholder {
     color: #999;
     text-shadow: 1px 1px 2px #222;
-}		
+}
 .w3-ul li {
     line-height: 20px;
     padding: 0;
