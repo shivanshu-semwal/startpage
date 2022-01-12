@@ -5,6 +5,7 @@ body {
     color: #f8f8f2;
     text-shadow: 1px 1px 2px #222;
 }
+
 h1,
 h2,
 h3,
@@ -17,6 +18,7 @@ h6 {
     padding: 6px;
     margin: 0;
 }
+
 .w3-input {
     color: #ccc;
     background: none;
@@ -24,43 +26,51 @@ h6 {
     text-shadow: 1px 1px 2px #6272a4;
     transition: border 0.3s ease;
 }
+
 textarea:focus,
 input:focus {
     outline: 0;
     border: 0;
     border-bottom: 4px solid #8be9fd;
 }
+
 ::placeholder {
     color: #999;
     text-shadow: 1px 1px 2px #222;
 }
+
 .w3-ul li {
     line-height: 20px;
     padding: 0;
     border: 0;
 }
+
 a,
-a > span {
+a>span {
     position: relative;
     color: #999;
     text-decoration: none;
     line-height: 22px;
     transition: color .3s ease-in-out;
 }
+
 a:hover {
     color: #f8f8f2;
 }
+
 a:before,
 a:after,
-a > span:before,
-a > span:after {
+a>span:before,
+a>span:after {
     content: '';
     position: absolute;
     transition: transform .3s ease-in-out;
 }
+
 .effect {
     padding-top: 0;
 }
+
 .effect:before {
     left: 0;
     bottom: -2px;
@@ -69,9 +79,11 @@ a > span:after {
     background: #8be9fd;
     transform: scaleX(0);
 }
+
 .effect:hover:before {
     transform: scaleX(0.85);
 }
+
 img {
     display: block;
     margin-bottom: -25px;
