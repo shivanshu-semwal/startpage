@@ -1,26 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 body {
-    font-family: "Iosevka Term", monospace;
+    font-family: "Ubuntu", sans-serif, monospace;
     font-size: 18px;
     background: #282a36;
     color: #f8f8f2;
     text-shadow: 1px 1px 2px #222;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Iosevka Term", monospace;
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Ubuntu", sans-serif, monospace;
     color: #f8f8f2;
     font-weight: 700;
     padding: 6px;
     margin: 0;
 }
 
-textarea:focus,
-input:focus {
+textarea:focus, input:focus {
     outline: 0;
     border: 0;
     border-bottom: 4px solid #8be9fd;
@@ -37,8 +33,7 @@ input:focus {
     border: 0;
 }
 
-a,
-a>span {
+a, a>span {
     position: relative;
     color: #999;
     text-decoration: none;
@@ -50,10 +45,7 @@ a:hover {
     color: #f8f8f2;
 }
 
-a:before,
-a:after,
-a>span:before,
-a>span:after {
+a:before, a:after, a>span:before, a>span:after {
     content: '';
     position: absolute;
     transition: transform .3s ease-in-out;
@@ -82,7 +74,7 @@ ul {
 
 
 .wrap {text-align: center; margin: 15px auto;}
-.resp {display: inline-flex; text-align: left; width: 200px; margin-right: 1%;}
+.resp {display: inline-flex; text-align: center; width: 200px; margin-right: 1%;}
 .resp.fixed {width: 160px; margin-right: 10px;}
 
 /* #a {background: #000; color: #fff;}
@@ -92,7 +84,12 @@ ul {
 #e {background: #0ff; color: #fff;} */
 
 
-svg{
+#sail{
+    color: #81a1c1;
     height: 300px;
     width: 300px;
+}
+
+#sail:hover {
+    color: #88c0d0;
 }
