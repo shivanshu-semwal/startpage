@@ -74,8 +74,8 @@ ul {
 
 
 .wrap {text-align: center; margin: 15px auto;}
-.resp {display: inline-flex; text-align: center; width: 200px; margin-right: 1%;}
-.resp.fixed {width: 160px; margin-right: 10px;}
+.resp {display: inline-flex; text-align: left; width: 200px; margin-right: 1%;}
+.resp.fixed { margin-right: 10px;}
 
 /* #a {background: #000; color: #fff;}
 #b {background: #f00; color: #0ff;}
@@ -92,4 +92,32 @@ ul {
 
 #sail:hover {
     color: #88c0d0;
+}
+
+#sail2{
+    color: #bf616a;
+    height: 200px;
+    width: 200px;
+}
+
+#sail2:hover {
+    color: #88c0d0;
+}
+
+.effect2 {
+    padding-top: 0;
+    color: #f8f8f2;
+}
+
+.effect2:before {
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: #bf616a;
+    transform: scaleX(0);
+}
+
+.effect2:hover:before {
+    transform: scaleX(0.85);
 }
