@@ -84,16 +84,6 @@ ul {
 #e {background: #0ff; color: #fff;} */
 
 
-#sail{
-    color: #81a1c1;
-    height: 300px;
-    width: 300px;
-}
-
-#sail:hover {
-    color: #88c0d0;
-}
-
 #sail2{
     color: #bf616a;
     height: 200px;
