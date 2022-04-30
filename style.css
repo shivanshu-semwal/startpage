@@ -1,81 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 body {
-    font-family: "Ubuntu", sans-serif, monospace;
-    font-size: 18px;
-    background: #282a36;
-    color: #f8f8f2;
-    text-shadow: 1px 1px 2px #222;
+  font-family: "Ubuntu", sans-serif, monospace;
+  font-size: 18px;
+  background: #282a36;
+  color: #f8f8f2;
+  text-shadow: 1px 1px 2px #222;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: "Ubuntu", sans-serif, monospace;
-    color: #f8f8f2;
-    font-weight: 700;
-    padding: 6px;
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif, monospace;
+  color: #f8f8f2;
+  font-weight: 700;
+  padding: 6px;
+  margin: 0;
 }
 
-textarea:focus, input:focus {
-    outline: 0;
-    border: 0;
-    border-bottom: 4px solid #8be9fd;
+textarea:focus,
+input:focus {
+  outline: 0;
+  border: 0;
+  border-bottom: 4px solid #8be9fd;
 }
 
 ::placeholder {
-    color: #999;
-    text-shadow: 1px 1px 2px #222;
+  color: #999;
+  text-shadow: 1px 1px 2px #222;
 }
 
 .w3-ul li {
-    line-height: 20px;
-    padding: 0;
-    border: 0;
+  line-height: 20px;
+  padding: 0;
+  border: 0;
 }
 
-a, a>span {
-    position: relative;
-    color: #999;
-    text-decoration: none;
-    line-height: 22px;
-    transition: color .3s ease-in-out;
+a,
+a > span {
+  position: relative;
+  color: #999;
+  text-decoration: none;
+  line-height: 22px;
+  transition: color 0.3s ease-in-out;
 }
 
 a:hover {
-    color: #f8f8f2;
+  color: #f8f8f2;
 }
 
-a:before, a:after, a>span:before, a>span:after {
-    content: '';
-    position: absolute;
-    transition: transform .3s ease-in-out;
+a:before,
+a:after,
+a > span:before,
+a > span:after {
+  content: "";
+  position: absolute;
+  transition: transform 0.3s ease-in-out;
 }
 
 ul {
-    list-style-type:none;
+  list-style-type: none;
 }
 
 .effect {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 .effect:before {
-    left: 0;
-    bottom: -2px;
-    width: 100%;
-    height: 2px;
-    background: #8be9fd;
-    transform: scaleX(0);
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: #8be9fd;
+  transform: scaleX(0);
 }
 
 .effect:hover:before {
-    transform: scaleX(0.85);
+  transform: scaleX(0.85);
 }
 
-
-.wrap {text-align: center; margin: 15px auto;}
-.resp {display: inline-flex; text-align: left; width: 200px; margin-right: 1%;}
-.resp.fixed { margin-right: 10px;}
+.wrap {
+  text-align: center;
+  margin: 15px auto;
+}
+.resp {
+  display: inline-flex;
+  text-align: left;
+  width: 200px;
+  margin-right: 1%;
+}
+.resp.fixed {
+  margin-right: 10px;
+}
 
 /* #a {background: #000; color: #fff;}
 #b {background: #f00; color: #0ff;}
@@ -83,31 +102,51 @@ ul {
 #d {background: #00f; color: #ff0;}
 #e {background: #0ff; color: #fff;} */
 
-
-#sail2{
-    color: #bf616a;
-    height: 200px;
-    width: 200px;
+#sail2 {
+  color: #bf616a;
+  height: 200px;
+  width: 200px;
 }
 
 #sail2:hover {
-    color: #88c0d0;
+  color: #88c0d0;
 }
 
 .effect2 {
-    padding-top: 0;
-    color: #f8f8f2;
+  padding-top: 0;
+  color: #f8f8f2;
 }
 
 .effect2:before {
-    left: 0;
-    bottom: -2px;
-    width: 100%;
-    height: 2px;
-    background: #bf616a;
-    transform: scaleX(0);
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: #bf616a;
+  transform: scaleX(0);
 }
 
 .effect2:hover:before {
-    transform: scaleX(0.85);
+  transform: scaleX(0.85);
+}
+
+#cal {
+  text-align: center;
+  margin: 100px auto;
+}
+
+#clock {
+  font-family: "Ubuntu", sans-serif, monospace;
+  font-size: 70px;
+  color: #81a1c1;
+  text-shadow: 1px 1px 2px #222;
+  margin: 1px auto;
+}
+
+#date {
+  font-family: "Ubuntu", sans-serif, monospace;
+  font-size: 30px;
+  color: #d8dee9;
+  text-shadow: 1px 1px 2px #222;
+  margin: 1px auto;
 }
