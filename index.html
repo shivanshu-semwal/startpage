@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Home</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.5">
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
   <script>
     function showTime() {
       let time = new Date();
       let hour = time.getHours();
       let min = time.getMinutes();
       let sec = time.getSeconds();
-
       month_arr = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
         'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
       week_arr = ['Sun', 'Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat']
-
       let date = time.getDate();
       let month = month_arr[time.getMonth()];
       let year = time.getFullYear();
@@ -24,7 +22,6 @@
       let currentDate = '<i class="fa-solid fa-calendar-days"></i> ' + date +
         ' ' + month + ' ' + year + ', ' + day
       document.getElementById("date").innerHTML = currentDate;
-
       am_pm = "AM";
       if (hour > 12) {
         hour -= 12;
@@ -43,7 +40,6 @@
     }
   </script>
 </head>
-
 <body onload="showTime()">
   <div id="cal">
     <div id="clock">09:04:45 PM</div>
@@ -56,20 +52,13 @@
           <li>
             <h4><i class="fa-solid fa-users"></i> social</h4>
           </li>
-          <li><a class="effect" href="https://web.whatsapp.com/">
-              <i class="fa-brands fa-whatsapp"></i> whatsapp</a></li>
-          <li><a class="effect" href="https://mail.google.com/mail/u/0/#inbox">
-              <i class="fa-solid fa-envelope"></i> gmail</a></li>
-          <li><a class="effect" href="https://outlook.office.com/mail/">
-              <i class="fa-solid fa-envelope"></i> outlook</a></li>
-          <li><a class="effect" href="https://discord.com/app">
-              <i class="fa-brands fa-discord"></i> discord</a></li>
-          <li><a class="effect" href="./reddit.html">
-              <i class="fa-brands fa-reddit-alien"></i> reddit</a></li>
-          <li><a class="effect" href="https://www.linkedin.com/">
-              <i class="fa-brands fa-linkedin"></i> linkedin</a></li>
-          <li><a class="effect" href="https://app.element.io/">
-              <i class="fa-thin fa-message"></i> element</a></li>
+          <li><a class="effect" href="https://web.whatsapp.com/"> whatsapp</a></li>
+          <li><a class="effect" href="https://mail.google.com/mail/u/0/#inbox"> gmail</a></li>
+          <li><a class="effect" href="https://outlook.office.com/mail/"> outlook</a></li>
+          <li><a class="effect" href="https://discord.com/app"> discord</a></li>
+          <li><a class="effect" href="./reddit.html"> reddit</a></li>
+          <li><a class="effect" href="https://www.linkedin.com/"> linkedin</a></li>
+          <li><a class="effect" href="https://app.element.io/"> element</a></li>
         </ul>
       </div>
       <div id="b" class="resp fixed">
@@ -77,20 +66,13 @@
           <li>
             <h4><i class="fa-solid fa-graduation-cap"></i> college</h4>
           </li>
-          <li><a class="effect" href="https://www.coursera.org">
-              <i class="fa-solid fa-building-columns"></i> Coursera</a></li>
-          <li><a class="effect" href="https://csitgeu.in/wp/">
-              <i class="fa-solid fa-person-chalkboard"></i> btech</a></li>
-          <li><a class="effect" href="https://student.gehu.ac.in/">
-              <i class="fa-solid fa-chalkboard"></i> erp</a></li>
-          <li><a class="effect" href="http://erp.geu.ac.in/">
-              <i class="fa-solid fa-chalkboard"></i> erp2</a></li>
-          <li><a class="effect" href="https://www.geu.ac.in/">
-              <i class="fa-solid fa-building-columns"></i> official</a></li>
-          <li><a class="effect" href="http://45.116.207.207/moodle/login/index.php">
-              <i class="fa-solid fa-chalkboard"></i> moodle</a></li>
-          <li><a class="effect" href="https://ilearn.geu.ac.in">
-              <i class="fa-solid fa-chalkboard-user"></i> ilearn</a></li>
+          <li><a class="effect" href="https://www.coursera.org"> Coursera</a></li>
+          <li><a class="effect" href="https://csitgeu.in/wp/"> btech</a></li>
+          <li><a class="effect" href="https://student.gehu.ac.in/"> erp</a></li>
+          <li><a class="effect" href="http://erp.geu.ac.in/"> erp2</a></li>
+          <li><a class="effect" href="https://www.geu.ac.in/"> official</a></li>
+          <li><a class="effect" href="http://45.116.207.207/moodle/login/index.php"> moodle</a></li>
+          <li><a class="effect" href="https://ilearn.geu.ac.in"> ilearn</a></li>
         </ul>
       </div>
       <div id="c" class="resp fixed">
@@ -98,16 +80,11 @@
           <li>
             <h4><i class="fa-solid fa-laptop-code"></i> code</h4>
           </li>
-          <li><a class="effect" href="https://clist.by/">
-              <i class="fas fa-calendar-alt"></i> Events</a></li>
-          <li><a class="effect" href="https://leetcode.com/">
-              <i class="fa-solid fa-code"></i> leetcode</a></li>
-          <li><a class="effect" href="https://codeforces.com/">
-              <i class="fa-solid fa-laptop-code"></i> codeforces</a></li>
-          <li><a class="effect" href="https://www.hackerrank.com/dashboard">
-              <i class="fa-brands fa-hackerrank"></i> hackerrank</a></li>
-          <li><a class="effect" href="./cp.html">
-              <i class="fa-solid fa-earth-asia"></i> Other</a></li>
+          <li><a class="effect" href="https://clist.by/"> Events</a></li>
+          <li><a class="effect" href="https://leetcode.com/"> leetcode</a></li>
+          <li><a class="effect" href="https://codeforces.com/"> codeforces</a></li>
+          <li><a class="effect" href="https://www.hackerrank.com/dashboard"> hackerrank</a></li>
+          <li><a class="effect" href="./cp.html"> Other</a></li>
         </ul>
       </div>
       <div id="d" class="resp fixed">
@@ -115,12 +92,9 @@
           <li>
             <h4><i class="fa-solid fa-code"></i> coding</h4>
           </li>
-          <li><a class="effect" href="https://github.com/">
-              <i class="fa-brands fa-github"></i> github</a></li>
-          <li><a class="effect" href="https://www.kaggle.com">
-              <i class="fa-brands fa-kaggle"></i> kaggle</a></li>
-          <li><a class="effect" href="https://xkcd.com">
-              <i class="fa-solid fa-bomb"></i> xkcd</a></li>
+          <li><a class="effect" href="https://github.com/"> github</a></li>
+          <li><a class="effect" href="https://www.kaggle.com"> kaggle</a></li>
+          <li><a class="effect" href="https://xkcd.com"> xkcd</a></li>
           <li><a class="effect" href="https://codepen.io/">codepen.io</a></li>
           <li><a class="effect" href="https://www.freecodecamp.org/">freecodecamp</a></li>
           <li><a class="effect" href="https://devdocs.io/">devdocs.io</a></li>
@@ -134,15 +108,11 @@
           </li>
           <li><a class="effect" href="https://monkeytype.com/">monkeytype</a></li>
           <li><a class="effect" href="https://keep.google.com/u/0/">notes</a></li>
-          <li><a class="effect" href="https://old.reddit.com/r/Windows10+linux+programming+windows">
-              <i class="fa-brands fa-reddit-alien"></i> reddit</a>
-          </li>
-          <li><a class="effect" href="https://lichess.org/">
-              <i class="fa-solid fa-chess"></i> lichess</a></li>
+          <li><a class="effect" href="https://old.reddit.com/r/linux+programming"> reddit</a> </li>
+          <li><a class="effect" href="https://lichess.org/"> lichess</a></li>
         </ul>
       </div>
     </div>
   </div>
 </body>
-
 </html>

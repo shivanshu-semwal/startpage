@@ -1,13 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-
 body {
-  font-family: "Ubuntu", sans-serif, monospace;
+  font-family: sans-serif, monospace;
   font-size: 18px;
   background: #282a36;
   color: #f8f8f2;
   text-shadow: 1px 1px 2px #222;
 }
-
 h1,
 h2,
 h3,
@@ -136,7 +133,7 @@ ul {
 }
 
 #clock {
-  font-family: "Ubuntu", sans-serif, monospace;
+  font-family: sans-serif, monospace;
   font-size: 70px;
   color: #81a1c1;
   text-shadow: 1px 1px 2px #222;
@@ -144,7 +141,7 @@ ul {
 }
 
 #date {
-  font-family: "Ubuntu", sans-serif, monospace;
+  font-family: sans-serif, monospace;
   font-size: 30px;
   color: #d8dee9;
   text-shadow: 1px 1px 2px #222;
