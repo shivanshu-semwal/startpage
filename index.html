@@ -4,8 +4,6 @@
   <title>Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.5">
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
   <script>
     function showTime() {
       let time = new Date();
@@ -19,9 +17,10 @@
       let month = month_arr[time.getMonth()];
       let year = time.getFullYear();
       let day = week_arr[time.getDay()];
-      let currentDate = '<i class="fa-solid fa-calendar-days"></i> ' + date +
+      let currentDate = date +
         ' ' + month + ' ' + year + ', ' + day
       document.getElementById("date").innerHTML = currentDate;
+
       am_pm = "AM";
       if (hour > 12) {
         hour -= 12;
@@ -40,17 +39,18 @@
     }
   </script>
 </head>
+
 <body onload="showTime()">
   <div id="cal">
     <div id="clock">09:04:45 PM</div>
-    <div id="date"><i class="fa-solid fa-calendar-days"></i> 30 Arp 2022, Sat</div>
+    <div id="date">30 Arp 2022, Sat</div>
   </div>
   <div class="centerh">
     <div class="wrap">
       <div id="a" class="resp fixed">
         <ul>
           <li>
-            <h4><i class="fa-solid fa-users"></i> social</h4>
+            <h4>social</h4>
           </li>
           <li><a class="effect" href="https://web.whatsapp.com/"> whatsapp</a></li>
           <li><a class="effect" href="https://mail.google.com/mail/u/0/#inbox"> gmail</a></li>
@@ -64,7 +64,7 @@
       <div id="b" class="resp fixed">
         <ul>
           <li>
-            <h4><i class="fa-solid fa-graduation-cap"></i> college</h4>
+            <h4>college</h4>
           </li>
           <li><a class="effect" href="https://www.coursera.org"> Coursera</a></li>
           <li><a class="effect" href="https://csitgeu.in/wp/"> btech</a></li>
@@ -78,7 +78,7 @@
       <div id="c" class="resp fixed">
         <ul>
           <li>
-            <h4><i class="fa-solid fa-laptop-code"></i> code</h4>
+            <h4>code</h4>
           </li>
           <li><a class="effect" href="https://clist.by/"> Events</a></li>
           <li><a class="effect" href="https://leetcode.com/"> leetcode</a></li>
@@ -90,7 +90,7 @@
       <div id="d" class="resp fixed">
         <ul>
           <li>
-            <h4><i class="fa-solid fa-code"></i> coding</h4>
+            <h4>coding</h4>
           </li>
           <li><a class="effect" href="https://github.com/"> github</a></li>
           <li><a class="effect" href="https://www.kaggle.com"> kaggle</a></li>
@@ -104,7 +104,7 @@
       <div id="e" class="resp fixed">
         <ul>
           <li>
-            <h4><i class="fa-solid fa-shuffle"></i> random</h4>
+            <h4>random</h4>
           </li>
           <li><a class="effect" href="https://monkeytype.com/">monkeytype</a></li>
           <li><a class="effect" href="https://keep.google.com/u/0/">notes</a></li>
@@ -115,4 +115,5 @@
     </div>
   </div>
 </body>
+
 </html>

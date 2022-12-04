@@ -147,3 +147,8 @@ ul {
   text-shadow: 1px 1px 2px #222;
   margin: 1px auto;
 }
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+}
